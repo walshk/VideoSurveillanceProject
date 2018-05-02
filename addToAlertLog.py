@@ -1,6 +1,6 @@
 def addLog(message):
     from datetime import datetime
-    now = datetime.datetime.now()
+    now = datetime.now()
 
     day = now.day
     month = now.month
@@ -10,4 +10,5 @@ def addLog(message):
 
     f = open(filename, "a+")
     f.write("{0}\n".format(message))
+    print("writing {0} to log".format(message))
     f.close()
