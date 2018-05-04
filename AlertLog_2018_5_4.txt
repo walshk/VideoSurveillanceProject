@@ -1,0 +1,21 @@
+12:50:39 -- Low Lighting Warning
+12:50:42 -- Low Lighting Warning
+12:50:43 -- Camera Connection Shutdown
+12:51:22 -- Low Lighting Warning
+12:51:24 -- Low Lighting Warning
+12:51:25 -- Camera Connection Shutdown
+13:00:19 -- Low Lighting Warning
+13:00:27 -- Low Lighting Warning
+13:00:35 -- Low Lighting Warning
+13:00:43 -- Low Lighting Warning
+13:01:26 -- Video May Be Frozen
+13:01:50 -- Video May Be Frozen
+13:01:52 -- Video May Be Frozen
+13:02:00 -- Video May Be Frozen
+13:02:20 -- Low Lighting Warning
+13:02:22 -- Low Lighting Warning
+13:02:23 -- Camera Connection Shutdown
+13:23:05 -- Low Lighting Warning
+13:23:09 -- Low Lighting Warning
+13:23:11 -- Camera Connection Shutdown
+13:24:07 -- Low Lighting Warning

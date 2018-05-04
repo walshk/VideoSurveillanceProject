@@ -18,7 +18,7 @@ def matrix_similarity(a,b):
 
 # BEGIN VIDEO CAPTURE
 try:
-	cap = cv2.VideoCapture('testvideo.mp4')  # CHOOSE VIDEO SOURCE
+	cap = cv2.VideoCapture(0)  # CHOOSE VIDEO SOURCE
 
 	counter_brightness = 0
 	
@@ -122,6 +122,12 @@ try:
 	    cv2.imshow('Video Surveillance System', gray)
 	    if cv2.waitKey(1) & 0xFF == ord('q'):
 	        break
+
+	    elif cv2.waitKey(1) & 0xFF == ord('s'):
+		    subject = "Alert Log for {0}/{1}/{2}".format(now.month, now.day, now.year)
+		    f = open("AlertLog_{2}_{1}_{0}.txt".format(now.day, now.month, now.year), 'r')
+		    msg = f.read()
+		    emailAlert.SendAlert('kevinwalsh322@gmail.com', subject, msg)
 
 	# when done, release capture
 	cap.release()

@@ -1,0 +1,51 @@
+02:24:17 -- Low Lighting Warning
+02:24:25 -- Low Lighting Warning
+02:24:33 -- Low Lighting Warning
+02:24:41 -- Low Lighting Warning
+02:24:49 -- Low Lighting Warning
+02:24:57 -- Low Lighting Warning
+02:25:05 -- Low Lighting Warning
+02:25:13 -- Low Lighting Warning
+02:25:21 -- Low Lighting Warning
+02:25:44 -- Low Lighting Warning
+02:25:44 -- Video May Be Frozen
+02:26:38 -- Low Lighting Warning
+02:26:38 -- Video May Be Frozen
+02:27:15 -- Low Lighting Warning
+02:27:15 -- Video May Be Frozen
+02:27:17 -- Low Lighting Warning
+02:28:09 -- Low Lighting Warning
+02:28:09 -- Video May Be Frozen
+02:28:11 -- Low Lighting Warning
+02:31:40 -- Low Lighting Warning
+02:31:44 -- Low Lighting Warning
+02:31:48 -- Low Lighting Warning
+02:31:52 -- Low Lighting Warning
+02:31:56 -- Low Lighting Warning
+02:32:00 -- Low Lighting Warning
+02:32:04 -- Low Lighting Warning
+02:32:08 -- Low Lighting Warning
+02:32:15 -- Low Lighting Warning
+02:32:19 -- Low Lighting Warning
+02:32:23 -- Low Lighting Warning
+10:58:06 -- Video May Be Frozen
+10:58:08 -- Video May Be Frozen
+10:58:10 -- Video May Be Frozen
+10:58:12 -- Video May Be Frozen
+10:58:16 -- Video May Be Frozen
+10:58:18 -- Video May Be Frozen
+10:58:23 -- Video May Be Frozen
+10:58:38 -- Video May Be Frozen
+10:58:39 -- Video May Be Frozen
+10:58:47 -- Video May Be Frozen
+11:07:55 -- Video May Be Frozen
+11:08:23 -- Video May Be Frozen
+11:08:29 -- Video May Be Frozen
+11:38:06 -- Video May Be Frozen
+11:38:08 -- Video May Be Frozen
+11:38:15 -- Video May Be Frozen
+11:38:23 -- Video May Be Frozen
+11:38:32 -- Low Lighting Warning
+11:38:34 -- Low Lighting Warning
+11:39:06 -- Low Lighting Warning
+11:39:08 -- Low Lighting Warning
