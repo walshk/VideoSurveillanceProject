@@ -6,7 +6,7 @@ def addLog(message):
     month = now.month
     year = now.year
 
-    filename = "Alert_Log_{0}_{1}_{2}.txt".format(day, month, year)
+    filename = "AlertLog_{2}_{1}_{0}.txt".format(day, month, year)
 
     f = open(filename, "a+")
     f.write("{0}\n".format(message))
