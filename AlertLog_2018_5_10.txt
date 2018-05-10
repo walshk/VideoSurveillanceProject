@@ -1,0 +1,4 @@
+12:15:04 -- Camera Connection Shutdown
+12:15:41 -- Low Lighting Warning
+12:15:47 -- Low Lighting Warning
+12:15:51 -- Camera Connection Shutdown

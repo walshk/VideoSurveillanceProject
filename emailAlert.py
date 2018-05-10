@@ -29,7 +29,7 @@ except ImportError:
 # If modifying these scopes, delete your previously saved credentials 
 # at ~/.credentials/gmail-python-quickstart.json
 SCOPES = "https://mail.google.com/"
-CLIENT_SECRET_FILE = '../client_secret.json'
+CLIENT_SECRET_FILE = '../client_secret.json' # replace with your own Gmail API authenticator
 APPLICATION_NAME = 'Gmail API Python Quickstart'
 
 

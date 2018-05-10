@@ -17,7 +17,7 @@ def matrix_similarity(a,b):
 
 # BEGIN VIDEO CAPTURE
 try:
-	cap = cv2.VideoCapture('videoplayback.mp4')  # CHOOSE VIDEO SOURCE
+	cap = cv2.VideoCapture('testvideo_short.mp4')  # CHOOSE VIDEO SOURCE
 
 	counter_brightness = 0
 	
@@ -89,7 +89,7 @@ try:
 
 
 
-	    # DETECT LARGE DIFFERENCES IN CORNER VALUES
+	    # DETECT LARGE DIFFERENCES IN CORNER VALUES (POV Change)
 	    counter_pov += 1
 
 	    if counter_pov == 0:
@@ -134,7 +134,7 @@ try:
 		    subject = "Alert Log for {0}/{1}/{2}".format(now.month, now.day, now.year)
 		    f = open("AlertLog_{2}_{1}_{0}.txt".format(now.day, now.month, now.year), 'r')
 		    msg = f.read()
-		    emailAlert.SendAlert('kevinwalsh322@gmail.com', subject, msg)
+		    emailAlert.SendAlert('kevinwalsh322@gmail.com', subject, msg)  # replace email address with your own - won't work without Gmail API authenticator
 
 	# when done, release capture
 	cap.release()
@@ -143,7 +143,7 @@ try:
 except(cv2.error):
 	print("OpenCV Error Encountered - System Shutdown")
 	
-	# Alert the user here
+	# Alert the user
 	now = datetime.datetime.now()
 	logMsg = "{0:02d}:{1:02d}:{2:02d} -- Camera Connection Shutdown".format(now.hour, now.minute, now.second)
 	addLog(logMsg)
@@ -152,6 +152,6 @@ except(cv2.error):
 
 	f = open("AlertLog_{2}_{1}_{0}.txt".format(now.day, now.month, now.year))
 	msg = f.read()
-	emailAlert.SendAlert('kevinwalsh322@gmail.com', subject, msg)
+	emailAlert.SendAlert('kevinwalsh322@gmail.com', subject, msg)  # replace email address with your own - won't work without Gmail API authenticator
 
 	exit(1)
