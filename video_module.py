@@ -34,7 +34,7 @@ def end_of_day_check():
 
 # BEGIN VIDEO CAPTURE
 try:
-	cap = cv2.VideoCapture('testvideo_long.mp4')  # CHOOSE VIDEO SOURCE
+	cap = cv2.VideoCapture(0)  # CHOOSE VIDEO SOURCE
 
 	counter_brightness = 0
 	
