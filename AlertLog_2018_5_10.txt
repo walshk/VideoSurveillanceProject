@@ -2,3 +2,35 @@
 12:15:41 -- Low Lighting Warning
 12:15:47 -- Low Lighting Warning
 12:15:51 -- Camera Connection Shutdown
+12:40:03 -- Video May Be Frozen
+12:40:06 -- Video May Be Frozen
+12:40:22 -- Video May Be Frozen
+12:40:38 -- Video May Be Frozen
+12:41:36 -- Video May Be Frozen
+12:42:15 -- Video May Be Frozen
+12:42:19 -- Video May Be Frozen
+12:47:47 -- Video May Be Frozen
+12:51:07 -- Video May Be Frozen
+12:51:11 -- Video May Be Frozen
+12:51:27 -- Video May Be Frozen
+12:51:42 -- Video May Be Frozen
+12:51:50 -- Video May Be Frozen
+12:51:54 -- Video May Be Frozen
+12:51:58 -- Video May Be Frozen
+12:52:03 -- Video May Be Frozen
+12:52:07 -- Video May Be Frozen
+12:52:15 -- Video May Be Frozen
+12:52:19 -- Video May Be Frozen
+12:53:30 -- Video May Be Frozen
+12:53:34 -- Video May Be Frozen
+12:53:50 -- Video May Be Frozen
+12:54:05 -- Video May Be Frozen
+12:54:13 -- Video May Be Frozen
+12:54:17 -- Video May Be Frozen
+12:54:22 -- Video May Be Frozen
+12:54:26 -- Video May Be Frozen
+12:54:30 -- Video May Be Frozen
+12:54:38 -- Video May Be Frozen
+12:54:42 -- Video May Be Frozen
+12:54:46 -- Video May Be Frozen
+12:54:50 -- Video May Be Frozen

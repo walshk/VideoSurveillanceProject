@@ -4,6 +4,8 @@ from addToAlertLog import addLog
 import datetime
 import emailAlert
 
+alertSent = {}
+
 
 def matrix_similarity(a,b):
 	c = a == b
@@ -14,10 +16,25 @@ def matrix_similarity(a,b):
 			truths += 1
 	return truths / len(c)
 
+def end_of_day_check():
+	if len(alertSent) > 10:
+		alertSent = {}
+		
+	# if end of day, send alert log email
+	now = datetime.datetime.now()
+	strDate = "{0}{1}{2}".format(now.day, now.month, now.year)
+	if not alertSent.get(strDate, False):
+		if now.hour == 23 and now.minute == 59 and now.second == 59:
+			subject = "Alert Log for {0}/{1}/{2}".format(now.month, now.day, now.year)
+			f = open("AlertLog_{2}_{1}_{0}.txt".format(now.day, now.month, now.year), 'r')
+			msg = "End of Day Alerts:\n" + f.read()
+			emailAlert.SendAlert('kevinwalsh322@gmail.com', subject, msg)  # replace email address with your own - won't work without Gmail API authenticator
+			alertSent[strDate] = True
+
 
 # BEGIN VIDEO CAPTURE
 try:
-	cap = cv2.VideoCapture('testvideo_short.mp4')  # CHOOSE VIDEO SOURCE
+	cap = cv2.VideoCapture('testvideo_long.mp4')  # CHOOSE VIDEO SOURCE
 
 	counter_brightness = 0
 	
@@ -30,6 +47,8 @@ try:
 
 	# Capture loop
 	while(True):
+	    end_of_day_check()
+
 	    # capture frame-by-frame
 	    ret, frame = cap.read()
 
