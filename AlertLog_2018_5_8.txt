@@ -1,0 +1,13 @@
+14:08:00 -- Low Lighting Warning
+14:08:00 -- Camera May Have Been Moved
+14:08:05 -- Camera May Have Been Moved
+14:08:59 -- Camera May Have Been Moved
+14:16:13 -- Low Lighting Warning
+14:16:13 -- Camera May Have Been Moved
+14:16:21 -- Low Lighting Warning
+14:16:25 -- Camera May Have Been Moved
+14:16:29 -- Camera May Have Been Moved
+14:17:16 -- Video May Be Frozen
+14:17:20 -- Video May Be Frozen
+14:17:54 -- Video May Be Frozen
+14:17:58 -- Video May Be Frozen

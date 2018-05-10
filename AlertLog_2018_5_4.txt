@@ -19,3 +19,12 @@
 13:23:09 -- Low Lighting Warning
 13:23:11 -- Camera Connection Shutdown
 13:24:07 -- Low Lighting Warning
+16:43:47 -- Low Lighting Warning
+16:49:35 -- Camera May Have Been Moved
+16:49:51 -- Camera May Have Been Moved
+16:50:23 -- Low Lighting Warning
+16:50:23 -- Camera May Have Been Moved
+16:50:31 -- Low Lighting Warning
+16:50:39 -- Low Lighting Warning
+16:51:10 -- Camera May Have Been Moved
+16:51:18 -- Camera May Have Been Moved
