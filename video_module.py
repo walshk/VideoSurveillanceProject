@@ -17,6 +17,8 @@ def matrix_similarity(a,b):
 	return truths / len(c)
 
 def end_of_day_check():
+	global alertSent
+
 	if len(alertSent) > 10:
 		alertSent = {}
 		
@@ -34,7 +36,7 @@ def end_of_day_check():
 
 # BEGIN VIDEO CAPTURE
 try:
-	cap = cv2.VideoCapture(0)  # CHOOSE VIDEO SOURCE
+	cap = cv2.VideoCapture(1)  # CHOOSE VIDEO SOURCE
 
 	counter_brightness = 0
 	
@@ -91,7 +93,7 @@ try:
 	            similarity = matrix_similarity(gray, freeze_test_img[-1])
 	            
 	            # test for 85% similarity between images 4 seconds apart
-	            if similarity > 0.85:
+	            if similarity > 0.75:
 	                now = datetime.datetime.now()
 	                # alert the user
 	                logMsg = "{0:02d}:{1:02d}:{2:02d} -- Video May Be Frozen".format(now.hour,now.minute,now.second)
