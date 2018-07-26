@@ -6,6 +6,9 @@ By:
 + Ben Dantowitz
 + Kevin Walsh
 
+## Requirements
+Anaconda (Python 3.6 version)
+
 ## Errors you may run into
 The module will not function properly if:
 + You don't have a webcam attached to your computer
